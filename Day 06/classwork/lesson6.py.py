@@ -1,0 +1,10 @@
+#print true or false
+print(11 > 6)
+print(146 < 147)
+print(16 > 25)
+print(-10 > -11)
+print(6 < 8)
+print(9 > 11)
+print(903 < 1000)
+print(10<2)
+print(10 <=> 8)
