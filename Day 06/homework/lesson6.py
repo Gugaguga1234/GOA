@@ -1,5 +1,5 @@
-nam1 = input("please enter you nam1")
-nam2 = input("please enter your nam2")
+num1 = input("please enter you nam1")
+num2 = input("please enter your num2")
 
 
 
@@ -61,11 +61,36 @@ print(90 != 90)
 print(67 != 67)
 print(134 != 134)
 
-nam1 = 346
-nam2 = 4
+#end of !=
 
-print(nam1 + nam2)
+num1 = int(input("please enter first number: "))
+num2 = int(input("please enter second number: "))
 
 
-print(1,356 != 1356)
-print(2,1224 == 2839390)
+print(num1 < num2)
+print(num1 <= num2)
+print(num1 > num2)
+print(num1 >= num2)
+print(num1 == num2)
+print(num1 != num2)
+
+
+
+num1 = int(input("please enter first number: "))
+num2 = num1 + 10
+
+
+print(num1 < num2)
+print(num1 <= num2)
+print(num1 > num2)
+print(num1 >= num2)
+print(num1 == num2)
+print(num1 != num2)
+
+
+
+num1 = int(input("please enter first number: "))
+num2 = float(input("please enter second number"))
+
+print(num1 == num2)
+print(num1 != num2)
