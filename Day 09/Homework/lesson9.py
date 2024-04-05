@@ -1,3 +1,8 @@
-print("if it is more then 10000 were you learning in goa") 
-print("if it is between 1000-10000 you mid")
-print("if it is less then 1000 you should join in goa you matrica")
+client_salary = int(input("enter salary"))
+
+if client_salary > 10000:
+    print("Goa-shi swavlobdi?")
+elif client_salary > 1000 and client_salary < 10000:
+    print("you are mid") 
+else:
+    print("shemosyliyavi goashi matricelo")
