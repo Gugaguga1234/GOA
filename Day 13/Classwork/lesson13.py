@@ -1,0 +1,23 @@
+print("GOA")
+print("company about coding")
+print("georgia")
+print("you gonna learn lot of things from goa like coding and some like thats stuff")
+print("sometimes you gonna hang out with goa students to getting know eact other")
+print("there is young teachers to")
+print("like they are 17 17 15 14 20 24 and i dont know to much")
+print("you gonna learn creating paragraphs and sites with those coding")
+About=input(("functions about the html python javascript "))
+codes= input(int("codes about the stuff like (print) (=) (input) (integer) and some lot of stuff"))
+groups= input(int("there is many groups like 20 "))
+About= input(int("one groups has less 30 people max-50"))
+leader = input(int("you can become small leader you can become big leader thats you can teach the students and you can have your own group"))
+print("phone numer -599907662")
+print("gmail GOAISCHAD@gmail.com")
+price =input(int("you gonna pay for end of the month 400lari one one lesson on week"))
+price = input(int("if you decide to have more lessons the your price gonna be a double or tripple"))
+print("for more questions contact us")
+print("youtobe=GOA")
+print("JOIN IN GOA BECOME THE CHAD ")
+
+
+           
