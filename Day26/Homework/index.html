@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 7px 10px;
+    transition: background 0.3s;
+}
+
+.nav-links:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.nav-icon {
+    display: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-links {
+        padding: 15px 0;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+     <title>MiceVerse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">MiceVerse</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-links">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-links">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-links">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-links">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

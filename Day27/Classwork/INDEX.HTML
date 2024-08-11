@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-title">Hello, World!</h1>
+    <p>This is a paragraph with some <span class="highlight">highlighted text</span>.</p>
+</body>
+</html>
+
+
+
+/* Selector: selects the element(s) to style */
+/* Declaration: specifies the property and value to apply */
+/* Rule: the combination of a selector and declaration */
+
+.main-title { /* Rule */
+    color: blue; /* Declaration */
+    font-size: 24px; /* Declaration */
+}
+
+.highlight { /* Rule */
+    background-color: yellow; /* Declaration */
+}
+
+
+<style>
+    .main-title {
+        color: blue;
+        font-size: 24px;
+    }
+</style>
+
+
+<link rel="stylesheet" href="styles.css">
+
+
+
+<h1 style="color: blue; font-size: 24px;">Hello, World!</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="first-div">
+        <p>This paragraph is inside the first div.</p>
+    </div>
+    <div class="second-div">
+        <p>This paragraph is inside the second div.</p>
+    </div>
+</body>
+</html>
+
+
+
+/* Descendant selector */
+.first-div p {
+    color: red;
+}
+
